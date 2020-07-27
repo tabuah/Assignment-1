@@ -1,0 +1,62 @@
+#fcf-form {
+    display: block;
+}
+.fcf-body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: black;
+    text-align: left;
+    padding: 30px;
+    padding-bottom: 10px;
+    border: 1px solid;
+    border-radius: 0.25rem;
+    max-width: 60%;
+    background-color: lightgray;
+}
+
+.fcf-form-group {
+    margin-bottom: 1rem;
+}
+
+.fcf-input-group {
+    position: relative;
+    display: flexbox;
+}
+
+.fcf-form-control {
+    display: block;
+    width: 100%;
+    height: fit-content;
+    padding: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: inherit;
+    outline: none;
+    border-radius: 1px solid;
+}
+
+.fcf-form-control:focus{
+    border: none;  
+}
+
+select.fcf-form-control[size], select.fcf-form-control[multiple] {
+    height: auto;
+}
+
+textarea.fcf-form-control{
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+}
+
+label.fcf-label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block{
+    width: 100%;
+}
+
